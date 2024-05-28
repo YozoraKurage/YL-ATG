@@ -31,11 +31,8 @@ OscCoreを利用します！付属の.unitypackageをインポートしてくだ
 
 ## What is ATG_OSCHub?
 Pythonを利用してOSCデータの分割を行うプログラムです！
-
 ただし、処理が重いのでRustへの移行を検討に検討を重ね検討中です
-
 撮影の為にカメラ位置を同期するため、TailScaleを利用して友人に座標を送り同期することを見据えたプログラムです。(ドキュメントに記述予定！)
-
 ~~pythonソースコードとexeを同梱しています。好きな方をお使いください！~~pyinstallerでビルドしたexeがWindowsセキュリティで抹消された；；
 
 ## Future Things
