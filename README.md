@@ -7,14 +7,15 @@ YL-ATGはVRChatアバター上の任意のオブジェクトの絶対座標を�
 
 ## How-to-use
 
-### ATG_ForAvatar.unitypacage**は、アバターに組み込むためのパッケージです。
+### **ATG_ForAvatar.unitypacage**は、アバターに組み込むためのパッケージです。
 [ModulerAvatar](https://modular-avatar.nadena.dev/)を利用しています！事前にアバタープロジェクトへのインポートをお願いします。
 
 1. ATG_ForAvatar.unitypacageをアバターのプロジェクトへインポートします。
 2. Assets/YozoLab/YL-ATG_ForAvater/YL-ATG_ForAvatar.prefab をアバターの下に配置します。
 3. ATG/pointのMA Bone Proxyにトラッキングしたいオブジェクトを指定してください。(デフォルトでHead)
 
-これだけで導入は完了です！絶対座標を取得するには、専用のUnityプロジェクトを作成してください！次に進みます↓
+これだけで導入は完了です！絶対座標を取得するには、専用のUnityプロジェクトを作成してください！
+次に進みます↓
 
 ### **ATG_ForUnity.unitypacage**は、別のUnityプロジェクトに組み込み絶対座標を取得するパッケージです。
 VRCPrismStudioとの併用を想定していますが、そうでなくても可能です。
@@ -30,8 +31,11 @@ OscCoreを利用します！付属の.unitypackageをインポートしてくだ
 
 ## What is ATG_OSCHub?
 Pythonを利用してOSCデータの分割を行うプログラムです！
+
 ただし、処理が重いのでRustへの移行を検討に検討を重ね検討中です
+
 撮影の為にカメラ位置を同期するため、TailScaleを利用して友人に座標を送り同期することを見据えたプログラムです。(ドキュメントに記述予定！)
+
 ~~pythonソースコードとexeを同梱しています。好きな方をお使いください！~~pyinstallerでビルドしたexeがWindowsセキュリティで抹消された；；
 
 ## Future Things
@@ -50,4 +54,5 @@ Pythonを利用してOSCデータの分割を行うプログラムです！
 
 ## Development Environment
 Unity 2022.3.6f1
+
 Python 3.10.14
