@@ -36,7 +36,7 @@ Pythonを利用してOSCデータの分割を行うプログラムです！
 
 撮影の為にカメラ位置を同期するため、TailScaleを利用して友人に座標を送り同期することを見据えたプログラムです。(ドキュメントに記述予定！)
 
-~~pythonソースコードとexeを同梱しています。好きな方をお使いください！~~pyinstallerでビルドしたexeがWindowsセキュリティで抹消された；；
+~~pythonソースコードとexeを同梱しています。好きな方をお使いください！~~ pyinstallerでビルドしたexeがWindowsセキュリティで抹消された；；
 
 ## Future Things
 ちゃんとしたドキュメントを作成予定です！定期的にこのリポジトリをチェックするか、私の[~~X~~ Twitter](https://twitter.com/YozoraKurage)を見てください<3<3<3
